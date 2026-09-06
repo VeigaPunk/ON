@@ -1,21 +1,11 @@
 # AUCTI / ON
 
-**Hypothetical PoC.** GitHub-as-auction for **used parts** that are minted but technically used.
+**Hypothetical PoC.** GitHub PR auction. Opening ask **$10M USD**.
 
-## Lot
-- Opening ask: **$10,000,000 USD** (`V.10.000.000`)
-- Bids: dollar-denominated PRs; owner merges to validate
-- **Mass:** equal isonomic pay / distribution
-- **Whales:** individual bids only
-
-## Fees
-| Slice | Rate | Notes |
-|-------|------|-------|
-| **Buyer** | **3%** | Tx cover |
-| **Finder’s** | **~5%** | |
-| **Auctioneer** | **0%** | PR + merge |
-| **Supporting** | **10%** | Hobo if available; else 5% mass (isonomic) + 5% whales |
-| **Dog** | **0.1%** | Whiskas (hobo path) |
+- Bid = PR (USD) · merge = validate · `main` = live bid
+- Mass: equal isonomic · Whales: individual only
+- **Settlement:** confirm only · else **cascade to previous winner**
+- Fees: buyer 3% · finder ~5% · auctioneer 0% · supporting 10% (hobo or 5/5 mass/whale) · dog 0.1%
 
 https://github.com/VeigaPunk/ON
 

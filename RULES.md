@@ -3,21 +3,24 @@
 - Medium: GitHub pull requests
 - Validation: merge to `main` by owner
 - Live state: contents of `main` / `CURRENT_BID.md`
-- Opening ask: **$10,000,000 USD** (`V.10.000.000`) — initial commit version
-- Bids: **dollar-denominated** only; PRs merged to `main` when owner validates
+- Opening ask: **$10,000,000 USD** (`V.10.000.000`)
+- Bids: **dollar-denominated** only; owner validates by merge
 - Currency: USD ask/hammer. BRL purchase is provenance only.
-- No-sale: if ask unmet, lot remains with custodian, intact
+- No-sale under ask: lot stays vaulted with custodian
 
 ## Bidder classes
-- **Mass movers:** pay **equal**, **isonomically distributed** — same terms, flat among the mass. No preferential individual carve-outs inside the mass pool.
-- **Whale movers:** may bid **individually only** — one whale, one bid identity. No pooled whale syndicate bids.
+- **Mass movers:** pay **equal**, **isonomically distributed**
+- **Whale movers:** bid **individually only**
+
+## Settlement (simple)
+1. Winning merged bid needs **confirmation on settlement** only.
+2. If confirmation fails / is withheld → **fallback cascades to the previous winner** on `main` history.
+3. No extra ceremony. Confirm or cascade.
 
 ## Fee stack
-- **Buyer fee:** 3% on hammer — transaction cover
+- **Buyer fee:** 3% on hammer
 - **Finder’s fee:** ~5%
-- **Auctioneer fee:** 0% (GitHub PR + merge)
-- **Supporting 10%:**
-  - If hobo / bookseller available → **10%** to him (+ **0.1%** dog Whiskas)
-  - If no hobo available → **5% mass movers** + **5% whale movers**
+- **Auctioneer fee:** 0% (PR + merge)
+- **Supporting 10%:** hobo 10% (+ dog 0.1%) if available; else 5% mass + 5% whale
 
 Owner owns process.
