@@ -6,15 +6,21 @@
 - **Item:** SSD NVME (used / minted-but-used)
 - **Provenance:** bought from a bookseller between Farme and Teixeira (Ipanema) for **10 BRL**
 - **Opening pin:** `V.10.000.000`
-- **Buyer fee:** near zero (no finder’s-fee theater)
-- **Seller share:** **10% of all auction proceeds** go to the bookseller — assured
+
+## Fees
+| Slice | Rate | Notes |
+|-------|------|-------|
+| **Buyer** | **3%** on top of hammer | Covers transaction |
+| **Finder’s** | **~5%** | Stated target |
+| **Auctioneer** | **0%** | If run on GitHub via PR + merge |
+| **Bookseller** | **10% of all proceeds** | Assured cut to source (Farme / Teixeira) |
 
 ## Rules
 1. Every new bid is a **pull request**.
 2. Owner validates a bid by **merging** that PR to `main`.
 3. **`main` is the current winning bid.**
-4. Buyer fee ≈ 0. Process owned by the auction runner.
-5. On settlement, **10% of proceeds** remit to the original bookseller.
+4. Auctioneer fee is zero on this path — process ownership, not a take.
+5. On settlement: buyer pays hammer + 3%; bookseller gets 10% of proceeds; finder’s ~5% as stated.
 
 ## How to bid (theory)
 1. Fork or branch from `main`.
@@ -22,4 +28,4 @@
 3. Open a PR titled with your bid (e.g. `BID V.10.000.001`).
 4. If merged, that bid becomes live on `main`.
 
-This repo is a strictly theoretical / alleged / hypothetical test surface — not escrow, not payment rails. Magic without Penn & Teller.
+Strictly theoretical / alleged / hypothetical test surface — not escrow, not payment rails.

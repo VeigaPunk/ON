@@ -6,7 +6,11 @@
 - Opening pin: `V.10.000.000`
 - Lot class: used parts (minted but technically used)
 - Provenance: Ipanema bookseller (between Farme and Teixeira), purchase 10 BRL
-- Buyer fee: near zero — not a finder’s-fee product
-- Seller / bookseller: **10% of all auction proceeds** (assured)
-- Owner owns process
-- Settlement magic: quiet cut to source, not stage magic
+
+## Fee stack
+- **Buyer fee:** 3% on top of auctioned (hammer) price — transaction cover
+- **Finder’s fee:** ~5%
+- **Auctioneer fee:** 0% when the auction is done on GitHub through PR and merge
+- **Bookseller:** 10% of all auction proceeds (assured)
+
+Owner owns process. Quiet settlement, not stage magic.
