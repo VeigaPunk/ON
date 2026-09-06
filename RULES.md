@@ -1,26 +1,22 @@
 # Auction rules (hypothetical)
 
-- Medium: GitHub pull requests
+- Medium: GitHub pull requests (may accumulate; owner reviews / merges when ready)
 - Validation: merge to `main` by owner
 - Live state: contents of `main` / `CURRENT_BID.md`
 - Opening ask: **$10,000,000 USD** (`V.10.000.000`)
-- Bids: **dollar-denominated** only; owner validates by merge
-- Currency: USD ask/hammer. BRL purchase is provenance only.
-- No-sale under ask: lot stays vaulted with custodian
+- Bids: **dollar-denominated** only
+- Settlement: confirmation only; else cascade to previous winner
 
 ## Bidder classes
-- **Mass movers:** pay **equal**, **isonomically distributed**
-- **Whale movers:** bid **individually only**
+- **Mass / groups:** pay **equal**, **isonomically distributed**. Each group bid must **attach # of members**.
+- **Whale movers:** bid **individually only**. Identity on the bid: **initials only**.
 
-## Settlement (simple)
-1. Winning merged bid needs **confirmation on settlement** only.
-2. If confirmation fails / is withheld → **fallback cascades to the previous winner** on `main` history.
-3. No extra ceremony. Confirm or cascade.
+## Settlement
+1. Confirm on settlement.
+2. No confirm → cascade to previous winner.
 
 ## Fee stack
-- **Buyer fee:** 3% on hammer
-- **Finder’s fee:** ~5%
-- **Auctioneer fee:** 0% (PR + merge)
-- **Supporting 10%:** hobo 10% (+ dog 0.1%) if available; else 5% mass + 5% whale
+- Buyer 3% · Finder’s ~5% · Auctioneer 0%
+- Supporting 10%: hobo (+ dog 0.1%) if available; else 5% mass + 5% whale
 
-Owner owns process.
+Owner owns process. Good eyes for treachery.

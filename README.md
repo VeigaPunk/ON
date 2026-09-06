@@ -1,11 +1,13 @@
 # AUCTI / ON
 
-**Hypothetical PoC.** GitHub PR auction. Opening ask **$10M USD**.
+**Hypothetical PoC.** Opening ask **$10M USD**.
 
-- Bid = PR (USD) · merge = validate · `main` = live bid
-- Mass: equal isonomic · Whales: individual only
-- **Settlement:** confirm only · else **cascade to previous winner**
-- Fees: buyer 3% · finder ~5% · auctioneer 0% · supporting 10% (hobo or 5/5 mass/whale) · dog 0.1%
+- Bid = PR (USD) · owner validates by merge · `main` = live bid
+- PRs may accumulate; review when ready
+- **Groups:** attach **# of members** · equal isonomic
+- **Whales:** individual only · **initials only**
+- Settlement: confirm or cascade to previous winner
+- Fees: buyer 3% · finder ~5% · auctioneer 0% · supporting 10% (hobo or 5/5) · dog 0.1%
 
 https://github.com/VeigaPunk/ON
 
