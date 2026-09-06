@@ -4,7 +4,9 @@
 
 ## Lot
 - **Item:** SSD NVME (used / minted-but-used)
-- **Provenance:** bought from a bookseller between Farme and Teixeira (Ipanema) for **10 BRL**
+- **Found in:** *Loucura* by Carmen Dametto — red cover, **1986**
+- **Note:** sister of the person on the back of the book
+- **Where bought:** bookseller between Farme and Teixeira (Ipanema), **10 BRL**
 - **Opening pin:** `V.10.000.000`
 
 ## Fees

@@ -5,7 +5,7 @@
 - Live state: contents of `main` / `CURRENT_BID.md`
 - Opening pin: `V.10.000.000`
 - Lot class: used parts (minted but technically used)
-- Provenance: Ipanema bookseller (between Farme and Teixeira), purchase 10 BRL
+- Provenance: found inside *Loucura* by Carmen Dametto (red 1986 cover; sister of the person on the back); bought from Ipanema bookseller between Farme and Teixeira for 10 BRL
 
 ## Fee stack
 - **Buyer fee:** 3% on top of auctioned (hammer) price — transaction cover
