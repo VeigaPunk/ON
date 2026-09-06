@@ -11,6 +11,7 @@
 - **Buyer fee:** 3% on top of auctioned (hammer) price — transaction cover
 - **Finder’s fee:** ~5%
 - **Auctioneer fee:** 0% when the auction is done on GitHub through PR and merge
-- **Bookseller:** 10% of all auction proceeds (assured)
+- **Bookseller / hobo:** 10% of all auction proceeds (true supporting role)
+- **His dog:** 0.1% of proceeds — Whiskas endowment (never hungry again)
 
 Owner owns process. Quiet settlement, not stage magic.

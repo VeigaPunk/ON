@@ -15,14 +15,15 @@
 | **Buyer** | **3%** on top of hammer | Covers transaction |
 | **Finder’s** | **~5%** | Stated target |
 | **Auctioneer** | **0%** | If run on GitHub via PR + merge |
-| **Bookseller** | **10% of all proceeds** | Assured cut to source (Farme / Teixeira) |
+| **Bookseller / hobo** | **10% of all proceeds** | Supporting role |
+| **His dog** | **0.1%** | Whiskas endowment |
 
 ## Rules
 1. Every new bid is a **pull request**.
 2. Owner validates a bid by **merging** that PR to `main`.
 3. **`main` is the current winning bid.**
 4. Auctioneer fee is zero on this path — process ownership, not a take.
-5. On settlement: buyer pays hammer + 3%; bookseller gets 10% of proceeds; finder’s ~5% as stated.
+5. On settlement: buyer pays hammer + 3%; bookseller 10%; dog 0.1%; finder’s ~5% as stated.
 
 ## How to bid (theory)
 1. Fork or branch from `main`.
