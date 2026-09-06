@@ -3,7 +3,8 @@
 - Medium: GitHub pull requests
 - Validation: merge to `main` by owner
 - Live state: contents of `main` / `CURRENT_BID.md`
-- Opening pin: `V.10.000.000`
+- Opening ask: **$10,000,000 USD** (`V.10.000.000`)
+- No-sale: if ask unmet, lot remains with custodian, intact
 - Lot class: used parts (minted but technically used)
 - Provenance: found inside *Loucura* by Carmen Dametto (red 1986 cover; sister of the person on the back); bought from Ipanema bookseller between Farme and Teixeira for 10 BRL
 
