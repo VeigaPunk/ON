@@ -4,6 +4,7 @@
 - Validation: merge to `main` by owner
 - Live state: contents of `main` / `CURRENT_BID.md`
 - Opening ask: **$10,000,000 USD** (`V.10.000.000`)
+- **Currency rule:** USD only for the ask/hammer. Worldwide phenomenon → worldwide currency. BRL purchase (10 BRL at Farme/Teixeira) is provenance, not the auction meter — BRL can move from one auction’s demand; USD is the neutral worldwide unit.
 - No-sale: if ask unmet, lot remains with custodian, intact
 - Lot class: used parts (minted but technically used)
 - Provenance: found inside *Loucura* by Carmen Dametto (red 1986 cover; sister of the person on the back); bought from Ipanema bookseller between Farme and Teixeira for 10 BRL

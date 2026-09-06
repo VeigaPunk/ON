@@ -1,9 +1,10 @@
 # Current bid
 
 - **Tag / opening ask:** `V.10.000.000` = **$10,000,000 USD**
+- **Currency:** **USD** — worldwide meter for a worldwide lot. Not BRL: local currency moves with one auction / one seller’s demand; dollars do not.
 - **Lot:** SSD NVME (used / minted-but-used) — **claimed:** sole physical, mint quality, **full**; no known scan/copy parallel (not even in national archives)
 - **Vessel:** *Loucura* (Carmen Dametto), red 1986 cover — sister of the person on the back
-- **Bought for:** 10 BRL (bookseller between Farme and Teixeira)
+- **Bought for:** 10 BRL (bookseller between Farme and Teixeira) — purchase currency ≠ ask currency
 - **Custody:** sole owner/holder; intact untouched ~5 years; if hammer &lt; $10M USD, lot stays exactly as kept — no forced sale
 - **Publish:** sneak peek already provided; full public release remains the original holder’s right
 - **Status:** opening pin on `main`
