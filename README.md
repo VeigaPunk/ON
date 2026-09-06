@@ -12,3 +12,5 @@ $ U$
 THE ONES WITH 10,000,000.00
 
 THIS. DONT PLAY THE RULE OF TARDS. THIS IS THE BIDDING WARS.
+vale o escrito, abaixo
+-Hypothetical- PoC: PR-as-bid auction. Lot: SSD NVME. Pin starts at V.10.000.000. Main = current bid. No fee.
